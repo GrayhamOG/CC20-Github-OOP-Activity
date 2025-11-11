@@ -3,7 +3,7 @@ package programs.yourprogram;
 import java.util.Random;
 import java.util.Scanner;
 
-// 🧩 TEMPLATE: Copy this to your own folder and modify values.
+
 public class Programnijose implements ProgramInterface {
 
     public String getName() { 
@@ -22,7 +22,6 @@ public class Programnijose implements ProgramInterface {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
 
-        // Arrays r name components
         String[] prefixes = {"Dark", "Fire", "Ice", "Shadow", "Nether", "Ender", "Ancient", "Soul"};
         String[] bases = {"Zombie", "Creeper", "Spider", "Skeleton", "Golem", "Witch", "Slime", "Specter"};
         String[] suffixes = {"King", "Queen", "Brute", "Hunter", "Lord", "Minion", "Walker"};
